@@ -46,7 +46,7 @@
     const labelTexture1 = textureLoader.load('label_backmirror.png');
     const spriteMaterial1 = new THREE.SpriteMaterial({ map: labelTexture1, transparent: true });
     const sprite1 = new THREE.Sprite(spriteMaterial1);
-    sprite1.position.set(1.2, 1.8, 0.5); // ★ラベル設置位置
+    sprite1.position.set(1.2, 1, 0.8); // ★ラベル設置位置
     sprite1.scale.set(1, 0.5, 1); // ラベルサイズ
     scene.add(sprite1);
 
@@ -54,7 +54,7 @@
     const labelTexture2 = textureLoader.load('label_plate.png');
     const spriteMaterial2 = new THREE.SpriteMaterial({ map: labelTexture2, transparent: true });
     const sprite2 = new THREE.Sprite(spriteMaterial2);
-    sprite2.position.set(1.2, 0.8, 2.2); // ★ラベル設置位置
+    sprite2.position.set(1.5, 0.8, 0.6); // ★ラベル設置位置
     sprite2.scale.set(1, 0.5, 1);
     scene.add(sprite2);
 
