@@ -58,7 +58,7 @@
     const labelTexture1 = textureLoader.load('label_backmirror.png');
     const spriteMaterial1 = new THREE.SpriteMaterial({ map: labelTexture1, transparent: true });
     const sprite1 = new THREE.Sprite(spriteMaterial1);
-    sprite1.position.set(1.2, 1.5, 1.5);
+    sprite1.position.set(1.2, 1.1, 1.2);
     sprite1.scale.set(1, 0.5, 1);
     sprite1.userData = { text: "バックミラーです。ここから後方を確認します。" };
     scene.add(sprite1);
